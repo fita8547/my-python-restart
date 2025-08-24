@@ -1,0 +1,31 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/chunsig-i/your-app/server/.npmrc
+5 silly config load:file:/Users/chunsig-i/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm create vite@latest . --template react
+8 verbose argv "create" "vite@latest" "." "--" "--template" "react"
+9 verbose logfile logs-max:10 dir:/Users/chunsig-i/.npm/_logs/2025-07-22T23_57_48_838Z-
+10 verbose logfile /Users/chunsig-i/.npm/_logs/2025-07-22T23_57_48_838Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 108ms (cache miss)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 verbose stack Error: canceled
+16 verbose stack     at exec (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:286:19)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+16 verbose stack     at async Init.execCreate (/usr/local/lib/node_modules/npm/lib/commands/init.js:135:5)
+16 verbose stack     at async Init.exec (/usr/local/lib/node_modules/npm/lib/commands/init.js:44:14)
+16 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+16 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+17 error canceled
+18 verbose cwd /Users/chunsig-i/your-app/server/fullstack-app/client
+19 verbose os Darwin 24.5.0
+20 verbose node v22.14.0
+21 verbose npm  v10.9.2
+22 verbose exit 1
+23 verbose code 1
+24 error A complete log of this run can be found in: /Users/chunsig-i/.npm/_logs/2025-07-22T23_57_48_838Z-debug-0.log
